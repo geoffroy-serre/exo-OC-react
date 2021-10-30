@@ -1,0 +1,16 @@
+.lmj-banner {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.205);
+  background-image: url('../../assets/bann.jpg');
+  height: 208px;
+}
+.lmj-logo {
+  height: 45px;
+}
+
+.lmj-title {
+  color: rgb(11, 172, 46);
+}

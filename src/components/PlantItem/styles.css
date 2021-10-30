@@ -1,0 +1,50 @@
+.plant-item {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  list-style-type: none;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  transition: all 100ms linear;
+  user-select: none;
+}
+.plant-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.plant-item__info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plant-item:hover {
+}
+.plant-item__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.plant-item__image {
+  height: 200px;
+}
+
+.plant-item__price {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 150px;
+  color: rgb(2, 141, 55);
+}
+
+.plant-item__name {
+  font-size: 1.3rem;
+}
+.plant-item__description {
+  margin-top: 10px;
+  width: 370px;
+}
+
+.lmj-sales {
+}
